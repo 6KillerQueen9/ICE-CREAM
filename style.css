@@ -1,0 +1,119 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #849d8f;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 155px;
+    margin-right: 25px;
+}
+
+.header-nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav__list li {
+    margin-right: 25px;
+
+}
+
+.header-nav__list a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.header-right{
+    margin-left: auto;
+}
+
+.header-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-right li {
+    border-radius: 16px;
+    margin-left: 10px;
+    background-color: rgba(255,255,255,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right li:nth-child(1) {
+    width: 32px;
+    height: 32px;
+}
+
+.header-right li:nth-child(2) {
+    width: 92px;
+}
+
+.header-right li:nth-child(3) {
+    width: 117px;
+}
+
+.header-right a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.schedule{
+    display: flex;
+    justify-content: end;
+}
+
+.schedule p{
+    margin-left: auto;
+    width: 167px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.phone-number{
+    display: block;
+    font-size: 22px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ee6340;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Ice-creams__btn{
+    font-size: 60px;
+    text-shadow: rgb(53, 53, 53) 0px 0px 10px;
+    box-shadow: rgb(53, 53, 53) 0px 5px 10px;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
